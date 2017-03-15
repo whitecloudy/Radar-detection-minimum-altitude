@@ -18,6 +18,7 @@ b = d/2rπ * 360(degree)
 
     r * cot(a) * sec(b)
 L = -------------------
+
       cot(a) - tan(b)
       
 A = L - r
