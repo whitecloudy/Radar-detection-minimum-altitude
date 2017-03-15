@@ -6,19 +6,17 @@ I will add the height of radar someday
 
 *********************************************************************************************************
 
-**Calculation Equation**
 
-L -> length from earth center to point of minimum detection altitude
-A -> Minimum detection altitude
-r -> Earth radius
-d -> Earth surface distance
-a -> angle of radar(degree)
+#Calculation Equation
+
+* L - length from earth center to point of minimum detection altitude
+* A - Minimum detection altitude
+* r - Earth radius
+* d - Earth surface distance
+* a - angle of radar(degree)
 
 b = d/2rπ * 360(degree)
 
-    r * cot(a) * sec(b)
-L = -------------------
+L =  (r * cot(a) * sec(b))/(cot(a) - tan(b))
 
-      cot(a) - tan(b)
-      
 A = L - r
